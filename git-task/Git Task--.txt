@@ -1,0 +1,36 @@
+Git Task:--
+
+1)$ git nit--> initialize a local git repo.
+2)$ git clone--> clone public repo.
+3)$ git status--> check status
+4)$ git add (file name)--> add a file into staging area
+5)$ git add -A--> add all new file & change files to staging area
+6)$ git commit -m "commit message"--> commit changes
+7)$ git rm -r (file name.txt)--> remove file or folder
+8)$ git branch (branch name)--> list of branch or denotes current branch
+9)$ git brnach -d (branch name)--> delete branch
+10)$ git push origin --delete (branch name)--> delete remote branch
+11)$ git checkout -b (branch name)--> create a new branch & switch to it
+12)$ git checkout -b (branch name) origin/branch name--> clone & switch
+13)& git branch -m (old branch)(new branch)--> rename local branch name
+14)$ git checkout (branch name)--> switch to branch
+15)$ git chechout--> switch to branch last checkout
+16)$ git merge (branch name)--> merge a branch into active branch
+17)$ git merge (source branch)(traget branch)--> merge a branch into target branch
+18)$ git stash--> stash changes in dirty wworking dir.
+19)$ git stash clear--> removea all stashed entry
+20)$ git push origin (branch name)--> push a branch to your remote branch
+21)$ git push -u origin (branch name)--> push changes to remote branch repo.
+22)$ git push--> push changes to remote repo.
+23)$ git push origin --delete (branch name)--> delete a remote repo.
+24)$ git pull--> update local repo. to newest commit
+25)$ git pull origin (brnach name)--> pull changes from remote repo.
+26)$ git remote add ogirin (ssh://git@github.com/user name/repo.name--> add a remote repo. 
+27)$ git log--> view changes
+28)$ git log --summary--> view changes (detailed)
+29)$ git log --oneline--> view changes (brifely)
+30)$ giit diff (source branch)(target branch)--> preview changes before merge
+31)$ git revert commit id--> revert commit changes
+32)$ git config --global user.email "your email address@ example.com"--> set globally email id
+
+
